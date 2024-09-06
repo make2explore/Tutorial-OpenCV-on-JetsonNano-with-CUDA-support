@@ -32,6 +32,7 @@ This tutorial is about How to Install OpenCV on Jetson Nano with CUDA support. W
  
 🌐 PyTorch for Jetson - 🔗https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048  
 📗 Jetpack 4.6.1 🔗 https://developer.nvidia.com/embedded/jetpack-sdk-461  
+▶️ [Tutorial] Getting Started With Jetson Nano 🔗 https://youtu.be/IVw1cyanRi0  
 
 ------------------------------------------------------------------------------------------------------
 
