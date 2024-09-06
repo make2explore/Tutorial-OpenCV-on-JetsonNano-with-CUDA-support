@@ -2,7 +2,7 @@
 
 How to install OpenCV on JetsonNano with CUDA support
   
-<img src="/Images/OpenCV-Nano.jpg" height="250" >
+<img src="/images/OpenCV-Nano.jpg" height="250" >
   
 **OpenCV** (Open Source Computer Vision Library) is an open-source software library used for **computer vision**, **machine learning**, and **image processing**. It provides a wide range of tools and functionalities that allow developers to process, analyze, and manipulate images and videos, making it a popular choice for tasks like object detection, image recognition, and facial recognition. 
   
