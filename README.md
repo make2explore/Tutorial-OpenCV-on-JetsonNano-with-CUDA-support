@@ -47,7 +47,7 @@ This tutorial is about How to Install OpenCV on Jetson Nano with CUDA support. W
 
 ------------------------------------------------------------------------------------------  
   
-References and Credits - 🙏❤️ Q-engineering (https://qengineering.eu)
+Citations, Script References and Credits - 🙏❤️ Q-engineering (https://qengineering.eu)
   
 ------------------------------------------------------------------------------------------  
 
