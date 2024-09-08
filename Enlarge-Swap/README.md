@@ -16,6 +16,9 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
 <img src="/Enlarge-Swap/screenshots/swap2.png" width="450" height="350">  
   
+
+<img src="/Enlarge-Swap/screenshots/swap3.png" width="450" height="350"> 
+
 </br>
   
 3. Check for any updates available 
@@ -26,6 +29,6 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
   ```
   
-<img src="/Enlarge-Swap/screenshots/swap3.png" width="450" height="350">  
+<img src="/Enlarge-Swap/screenshots/swap4.png" width="450" height="350">  
   
 
