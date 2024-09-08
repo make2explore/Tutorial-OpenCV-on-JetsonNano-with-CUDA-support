@@ -16,4 +16,16 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
 <img src="/Enlarge-Swap/screenshots/swap2.png" width="450" height="350">  
   
+</br>
   
+3. Update 
+  ```
+  sudo apt-get update
+    
+  sudo apt-get upgrade
+  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap2.png" width="450" height="350">  
+  
+
