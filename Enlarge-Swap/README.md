@@ -31,4 +31,22 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
 <img src="/Enlarge-Swap/screenshots/swap4.png" width="450" height="350">  
   
+</br>
+  
+4. Run jtop command to get information about avalable RAM, ZRAM and Swap memory
+  
+<img src="/Enlarge-Swap/screenshots/swap5.png" width="450" height="350"> 
+  
+</br>
+  
+4. Install lightweight 'nano' editor  
+  ```
+  sudo apt-get install nano
+    
+  ```
+  
+  
+<img src="/Enlarge-Swap/screenshots/swap7.png" width="450" height="350"> 
+  
+</br>
 
