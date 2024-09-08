@@ -8,12 +8,12 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
-<img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="550">  
+<img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="450">  
   
   
   
 2. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
-<img src="/Enlarge-Swap/screenshots/swap2.png" height="650">  
+<img src="/Enlarge-Swap/screenshots/swap2.png" width="450" height="450">  
   
   
