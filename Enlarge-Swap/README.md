@@ -16,12 +16,36 @@ Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of sw
   
 - The swap memory allows for "extra memory" when there is memory pressure on main (physical) memory by swapping portions of memory to disk. 
 - Because the Jetson Nano has a relatively small amount of memory (4GB) this can be very useful, especially when, say, compiling large projects.  
-- The swap memory method in use is Zram. You can examine the swap memory information:  
+- The swap memory method in use is Zram. You can examine the swap memory information by using following command:  
   
 <blockquote>
 $ zramctl</blockquote>
   
 <img src="/Enlarge-Swap/screenshots/swap19.png" width="650"> 
+  
+- You will notice that there are four entries (one for each CPU of the Jetson Nano) /dev/zram0 - /dev/zram3. Each entry has an allocated amount of swap memory associated with it, by default 495.5M, for a total of around 2GB. This is half the size of the main memory. You will find this to be adequate for most tasks.  
+- However, there are times you may want to adjust the size of swap memory ... (Like for Installation of OpneCV)
+
+- The configuration for the Zram allocation is done on startup. The file that controls this is 
+/etc/systemd/nvzramconfig.sh
+
+- The size of the Zram for each CPU is calculated by the line:  
+  
+<blockquote>
+mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
+</blockquote>
+  
+- where totalmem is the total amount of memory, and NRDEVICES is the number of CPUs.
+
+- Basically it divides the amount of physical memory by the number of CPUS with a divisor, in this case 2 to get the 2GB total.  
+
+- You can simply edit this equation using a text editor. You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
+  
+<blockquote>
+sudo vi /etc/systemd/nvzramconfig.sh
+</blockquote>
+  
+- For example, you may remove the divisor to get a full 4GB.  
   
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
