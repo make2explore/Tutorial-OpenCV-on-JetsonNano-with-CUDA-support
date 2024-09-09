@@ -7,33 +7,67 @@ Please note that, Installing OpenCV on your Jetson Nano is bit hectic. With its 
   
 </br>
 
+
+**check your memory first**  
   ```
   
-# check your memory first
-$ free -m  
+free -m  
+
+  ```
+**You need at least a total of 8.5 GB!**  
+**if not, enlarge your swap space as explained in the guide**  
   
-# you need at least a total of 8.5 GB!  
-# if not, enlarge your swap space as explained in the guide  
+  ```
+wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/blob/main/scripts/OpenCV-4-10-0.sh  
   
-$ wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/blob/main/scripts/OpenCV-4-10-0.sh  
+  ```
   
-$ sudo chmod 755 ./OpenCV-4-10-0.sh  
+**Change persmissions of file**
   
-$ ./OpenCV-4-10-0.sh  
+  ```
+sudo chmod 755 ./OpenCV-4-10-0.sh  
   
-# once the installation is done...  
+  ```
   
-$ rm OpenCV-4-10-0.sh  
+**Execute the Script - Please note it will take 2-3 hours to complete**
   
-# remove the dphys-swapfile now  
+  ```
+./OpenCV-4-10-0.sh  
   
-$ sudo /etc/init.d/dphys-swapfile stop  
+  ```
   
-$ sudo apt-get remove --purge dphys-swapfile  
+**Once the installation is done remove script file**  
   
-# just a tip to save an additional 275 MB  
+  ```
+rm OpenCV-4-10-0.sh  
   
-$ sudo rm -rf ~/opencv  
+  ```
+  
+**Remove the (Swap) dphys-swapfile and Free the SD memory**  
+  
+  ```
+sudo /etc/init.d/dphys-swapfile stop  
+  
+  ```
+  
+**Remove the (Swap) dphys-swapfile package also**  
+  
+  ```
+sudo apt-get remove --purge dphys-swapfile  
+  
+  ```
+  
+**Save an additional 275 MB by removing installation files**  
+  
+  ```
+  
+sudo rm -rf ~/opencv  
+  
+  ```
+
+  
+
+  ```
   
 $ sudo rm -rf ~/opencv_contrib  
   
