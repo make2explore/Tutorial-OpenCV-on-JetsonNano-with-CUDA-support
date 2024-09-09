@@ -74,7 +74,7 @@ sudo reboot now
   
 - After reboot check the Swap memory using free command of jtop command. You will see Swap=4GB
   
-<img src="/Enlarge-Swap/screenshots/swap23.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap23.png" width="650"> 
   
 </br>  
 <img src="/Enlarge-Swap/screenshots/swap24.png" width="450" height="350"> 
