@@ -42,14 +42,44 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 
 - You can simply edit this equation using a text editor. You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
   
-<blockquote>
-sudo vi /etc/systemd/nvzramconfig.sh
-</blockquote>
+- Install lightweight 'nano' editor  
+  ```
+  sudo apt-get install nano
   
-- For example, you may remove the divisor to get a full 4GB.  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap7.png" width="450" height="350"> 
   
 </br>
   
+- Now lets edit the nvzramconfig.sh file using Nano editor
+<blockquote>
+sudo nano /etc/systemd/nvzramconfig.sh
+</blockquote>
+  
+<img src="/Enlarge-Swap/screenshots/swap21.png" width="450" height="350"> 
+  
+</br>
+  
+- For example, you may remove the divisor to get a full 4GB.  
+  
+<img src="/Enlarge-Swap/screenshots/swap22.png" width="450" height="350"> 
+  
+</br>
+  
+- Now reboot the machine for changes to take effect  
+<blockquote>
+sudo reboot now
+</blockquote>
+  
+- After reboot check the Swap memory using free command of jtop command. You will see Swap=4GB
+  
+<img src="/Enlarge-Swap/screenshots/swap23.png" width="450" height="350"> 
+  
+</br>  
+<img src="/Enlarge-Swap/screenshots/swap24.png" width="450" height="350"> 
+  
+</br>
 ## Enlarge the Swap Memory
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
@@ -88,17 +118,8 @@ sudo vi /etc/systemd/nvzramconfig.sh
   
 </br>
   
-5. Install lightweight 'nano' editor  
-  ```
-  sudo apt-get install nano
-  
-  ```
-  
-<img src="/Enlarge-Swap/screenshots/swap7.png" width="450" height="350"> 
-  
-</br>
 
-6. Install dphys-swapfile package 
+5. Install dphys-swapfile package 
   ```
   sudo apt-get install dphys-swapfile
   
@@ -112,7 +133,7 @@ sudo vi /etc/systemd/nvzramconfig.sh
 
 </br>
 
-7. Edit the file to enlarge the boundary 
+6. Edit the file to enlarge the boundary 
   ```
   sudo nano /sbin/dphys-swapfile
   
@@ -130,7 +151,7 @@ sudo vi /etc/systemd/nvzramconfig.sh
   
 </br>
 
-8. Edit another file -  give the required memory size
+7. Edit another file -  give the required memory size
   ```
   sudo nano /etc/dphys-swapfile
   
@@ -148,7 +169,7 @@ sudo vi /etc/systemd/nvzramconfig.sh
   
 </br>
   
-9. Reboot the board for changes to take effect
+8. Reboot the board for changes to take effect
   ```
   sudo reboot now
   
@@ -158,7 +179,7 @@ sudo vi /etc/systemd/nvzramconfig.sh
   
 </br>
   
-10. After Reboot check the swap size using jtop command
+9. After Reboot check the swap size using jtop command
   ```
   jtop
   
