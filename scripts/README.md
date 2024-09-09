@@ -6,7 +6,8 @@ Please note that, Installing OpenCV on your Jetson Nano is bit hectic. With its 
 - Which means you just have to replace the name of the particular script into following commands  
   
 </br>
-```
+
+  ```
   
 # check your memory first
 $ free -m  
@@ -36,4 +37,4 @@ $ sudo rm -rf ~/opencv
   
 $ sudo rm -rf ~/opencv_contrib  
   
-```
+  ```
