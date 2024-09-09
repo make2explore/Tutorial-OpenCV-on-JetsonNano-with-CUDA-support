@@ -80,6 +80,7 @@ sudo reboot now
 <img src="/Enlarge-Swap/screenshots/swap24.png" width="450" height="350"> 
   
 </br>
+  
 ## Enlarge the Swap Memory
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
