@@ -21,6 +21,8 @@ Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of sw
 <blockquote>
 $ zramctl</blockquote>
   
+<img src="/Enlarge-Swap/screenshots/swap19.png" width="650"> 
+  
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
 <img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="350">  
