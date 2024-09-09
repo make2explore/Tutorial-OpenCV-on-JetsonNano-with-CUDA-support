@@ -6,6 +6,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 - All steps are given with screenshot of each stage.
 - Please follow instruction stepwise carefully   
   
+## Resize the Swap Memory
 Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of swap memory.  
   
 <img src="/Enlarge-Swap/screenshots/swap18.png" width="650"> 
@@ -37,7 +38,7 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
   
 - where totalmem is the total amount of memory, and NRDEVICES is the number of CPUs.
 
-- Basically it divides the amount of physical memory by the number of CPUS with a divisor, in this case 2 to get the 2GB total.  
+- Basically it divides the amount of physical memory by the number of CPU's with a divisor, in this case 2 to get the 2GB total.  
 
 - You can simply edit this equation using a text editor. You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
   
