@@ -121,7 +121,7 @@ sudo reboot now
   
 ## 2. Enlarge the Swap Memory
 
-1. Run jtop command to get information about avalable RAM and Swap memory. You will see Swap=4GB and RAM=4GB
+1. Run jtop command to get information about avalable RAM and Swap memory. If you have followed our above tutorial steps, You will see Swap=4GB and RAM=4GB.
   
 <img src="/Enlarge-Swap/screenshots/swap23.png" width="650">  
   
