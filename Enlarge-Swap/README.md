@@ -40,11 +40,11 @@ $ zramctl</blockquote>
 mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 </blockquote>
   
-- where totalmem is the total amount of memory, and NRDEVICES is the number of CPUs.
+- where *totalmem* is the total amount of memory, and *NRDEVICES* is the number of CPUs.
 
 - Basically it divides the amount of physical memory by the number of CPU's with a divisor, in this case 2 to get the 2GB total.  
 
-- You can simply edit this equation using a text editor. You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
+- You can simply edit this equation using a text editor. *You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
   
 - Install lightweight *'nano'* editor  
   ```
