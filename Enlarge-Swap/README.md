@@ -16,6 +16,13 @@ Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of sw
   
 - The swap memory allows for "extra memory" when there is memory pressure on main (physical) memory by swapping portions of memory to disk. 
 - Because the Jetson Nano has a relatively small amount of memory (4GB) this can be very useful, especially when, say, compiling large projects.  
+- The swap memory method in use is Zram. You can examine the swap memory information:  
+  
+```
+zramctl
+
+```
+  
   
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
