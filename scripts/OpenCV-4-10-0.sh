@@ -36,7 +36,7 @@ install_opencv () {
   fi
   
   echo "Installing OpenCV 4.10.0 on your Nano"
-  echo "It will take 3.5 hours !"
+  echo "It will take 3.5 hours !!"
   
   # reveal the CUDA location
   cd ~
