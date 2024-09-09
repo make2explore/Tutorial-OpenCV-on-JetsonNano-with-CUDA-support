@@ -119,7 +119,17 @@ sudo reboot now
   
 </br>
   
-## 2. Enlarge the Swap Memory
+## 2. Enlarge the Swap Memory  
+
+- Please note that For compiling/building latest openCV we require at least 8.5 GB memory(RAM+Swap).
+- We are Enlarging Jetson Nano's Swap memory, since our Your Nano's default memory (4 GB RAM + 2 GB swap) is not enough for a quick build of OpenCV.
+- If you run quick build, without enlarging Swap memory, It will run but will take long time.
+- In this case, the compilation will be done by only 1 core, hence it will take a long time.  
+- It would be best if you had more memory allocated to your Nano for the fast 4-core build.
+- So we have already resized our Nano's default swap size to 4GB by using zram method given above.
+- Now we will use *dphys-swapfile* package method to add additional 2GB so that total swap memory will become  >8GB (4GB RAM + 6GB swap)
+
+***Please Note- The recommended swap memory size is 2GB for a 4GB Jetson Nano. Larger swap memory sizes can sometimes cause decreased performance. It is recommended to use a swap file in addition to swap memory if you need larger amounts of memory for building projects.***
 
 1. Run jtop command to get information about avalable RAM and Swap memory. If you have followed our above tutorial steps, You will see Swap=4GB and RAM=4GB.
   
@@ -129,8 +139,9 @@ sudo reboot now
   
 </br>
   
+  **We have to add at least 2GB, please do not add more than 4GB, system will behave
 
-2. Install dphys-swapfile package 
+2. Then lets Install *dphys-swapfile* package 
   ```
   sudo apt-get install dphys-swapfile
   
@@ -144,7 +155,7 @@ sudo reboot now
 
 </br>
 
-3. Edit the file to enlarge the boundary 
+3. Edit the file to enlarge the boundary of swap
   ```
   sudo nano /sbin/dphys-swapfile
   
