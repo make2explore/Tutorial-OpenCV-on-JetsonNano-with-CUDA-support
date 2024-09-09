@@ -165,11 +165,11 @@ sudo reboot now
   
 </br>
 
-<img src="/Enlarge-Swap/screenshots/swap11.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap25.png" width="450" height="350"> 
   
 </br>
 
-<img src="/Enlarge-Swap/screenshots/swap12.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap29.png" width="450" height="350"> 
   
 </br>
 
@@ -183,11 +183,11 @@ sudo reboot now
   
 </br>
 
-<img src="/Enlarge-Swap/screenshots/swap14.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap26.png" width="450" height="350"> 
   
 </br>
 
-<img src="/Enlarge-Swap/screenshots/swap15.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap30.png" width="450" height="350"> 
   
 </br>
   
@@ -201,11 +201,17 @@ sudo reboot now
   
 </br>
   
-6. After Reboot check the swap size using jtop command
+6. After Reboot check the swap size using jtop command or *free -m* command
   ```
+  free -m
+  
   jtop
   
   ```
+  
+<img src="/Enlarge-Swap/screenshots/swap27.png" width="650"> 
+  
+</br>
   
 <img src="/Enlarge-Swap/screenshots/swap17.png" width="450" height="350"> 
   
