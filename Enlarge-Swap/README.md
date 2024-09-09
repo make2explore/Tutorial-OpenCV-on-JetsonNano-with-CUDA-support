@@ -102,3 +102,23 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
 <img src="/Enlarge-Swap/screenshots/swap15.png" width="450" height="350"> 
   
 </br>
+  
+9. Reboot the board for changes to take effect
+  ```
+  sudo reboot now
+  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap16.png" width="450" height="350"> 
+  
+</br>
+  
+10. After Reboot check the swap size using jtop command
+  ```
+  jtop
+  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap17.png" width="450" height="350"> 
+  
+</br>
