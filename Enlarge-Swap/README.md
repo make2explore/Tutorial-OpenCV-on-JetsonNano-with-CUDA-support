@@ -46,9 +46,8 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
 4. Install lightweight 'nano' editor  
   ```
   sudo apt-get install nano
-    
-  ```
   
+  ```
   
 <img src="/Enlarge-Swap/screenshots/swap7.png" width="450" height="350"> 
   
