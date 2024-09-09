@@ -48,6 +48,8 @@ sudo vi /etc/systemd/nvzramconfig.sh
   
 - For example, you may remove the divisor to get a full 4GB.  
   
+</br>
+## Enlarge the Swap Memory
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
 <img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="350">  
