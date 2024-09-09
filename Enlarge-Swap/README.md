@@ -3,10 +3,13 @@
 In this Tutorial we will see how to resize and enlarge size of swap memory of Jetson Nano  
   
 **Follow the Instructions given below**
-- All steps are given with screenshot of each stage.
+- All steps are given with screenshot for each stage.
 - Please follow instruction stepwise carefully   
   
-## Resize the Swap Memory
+1. First we will resize the default size of swap memory for Jetson Nano
+2. Then we will intrease/enlarge the swap space  
+
+## 1. Resize the Swap Memory
 Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of swap memory.  
   
 <img src="/Enlarge-Swap/screenshots/swap18.png" width="650"> 
@@ -81,7 +84,7 @@ sudo reboot now
   
 </br>
   
-## Enlarge the Swap Memory
+## 2. Enlarge the Swap Memory
 1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
   
 <img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="350">  
