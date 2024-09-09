@@ -11,7 +11,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 
 ## 1. Resize the Swap Memory
 Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of swap memory.  
-So when you run free -m command of jtop command you will see following results initially
+So when you run *free -m* command of *jtop* command you will see following results initially.
   
 <img src="/Enlarge-Swap/screenshots/swap18.png" width="650"> 
 </br>
@@ -46,7 +46,7 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 
 - You can simply edit this equation using a text editor. You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
   
-- Install lightweight 'nano' editor  
+- Install lightweight *'nano'* editor  
   ```
   sudo apt-get install nano
   
@@ -56,7 +56,7 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
   
 </br>
   
-- Now lets edit the nvzramconfig.sh file using Nano editor
+- Now lets edit the *nvzramconfig.sh* file using Nano editor
 <blockquote>
 sudo nano /etc/systemd/nvzramconfig.sh
 </blockquote>
@@ -65,7 +65,8 @@ sudo nano /etc/systemd/nvzramconfig.sh
   
 </br>
   
-- For example, you may remove the divisor to get a full 4GB.  
+- So in order to get full potential memory, you may remove the divisor to get a full 4GB. 
+- You have to remove */2*, refer following screenshot  
   
 <img src="/Enlarge-Swap/screenshots/swap22.png" width="450" height="350"> 
   
