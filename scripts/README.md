@@ -15,7 +15,7 @@ free -m
 
   ```
 **You need at least a total of 8.5 GB!**  
-**if not, enlarge your swap space as explained in the guide**  
+**if not, enlarge your swap space as explained in the [Enlarge Swap memory section] (https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/tree/main/Enlarge-Swap)**  
   
 **2. Then download the script from GiHub Repo, please use OpenCV-4-X-X.sh (version) as per your choice** 
   
