@@ -53,13 +53,52 @@ In this Tutorial we will see how to enlarge size of swap memory of Jetson Nano
   
 </br>
 
-4. Install dphys-swapfile package 
+5. Install dphys-swapfile package 
   ```
   sudo apt-get install dphys-swapfile
   
   ```
   
 <img src="/Enlarge-Swap/screenshots/swap8.png" width="450" height="350"> 
+
+</br>
+
+<img src="/Enlarge-Swap/screenshots/swap9.png" width="450" height="350"> 
+
+</br>
+
+6. Edit the file to enlarge the boundary 
+  ```
+  sudo nano /sbin/dphys-swapfile
+  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap10.png" width="450" height="350"> 
   
 </br>
 
+<img src="/Enlarge-Swap/screenshots/swap11.png" width="450" height="350"> 
+  
+</br>
+
+<img src="/Enlarge-Swap/screenshots/swap12.png" width="450" height="350"> 
+  
+</br>
+
+7. Edit another file -  give the required memory size
+  ```
+  sudo nano /etc/dphys-swapfile
+  
+  ```
+  
+<img src="/Enlarge-Swap/screenshots/swap13.png" width="450" height="350"> 
+  
+</br>
+
+<img src="/Enlarge-Swap/screenshots/swap14.png" width="450" height="350"> 
+  
+</br>
+
+<img src="/Enlarge-Swap/screenshots/swap15.png" width="450" height="350"> 
+  
+</br>
