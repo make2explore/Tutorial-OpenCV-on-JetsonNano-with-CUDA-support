@@ -77,7 +77,7 @@ sudo rm -rf ~/opencv
   
 
   ```
-$ sudo rm -rf ~/opencv_contrib
+sudo rm -rf ~/opencv_contrib
   ```
 </br>
   
