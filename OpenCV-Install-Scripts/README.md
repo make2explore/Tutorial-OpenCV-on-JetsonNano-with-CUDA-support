@@ -26,28 +26,24 @@ wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-sup
   
   ```
 sudo chmod 755 ./OpenCV-Latest.sh
-  
   ```
   
 **4. Execute the Script - Please note it will take 2-3 hours to complete**
   
   ```
 ./OpenCV-Latest.sh
-  
   ```
   
 **5. Once the installation is done remove script file**  
   
   ```
 rm OpenCV-Latest.sh
-  
   ```
 
 **6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings**
   
   ```
 sudo nano /etc/systemd/nvzramconfig.sh
-  
   ```
 <img src="/Enlarge-Swap/screenshots/swap22.png" width="450" height="350"> 
   
@@ -64,30 +60,24 @@ sudo nano /etc/systemd/nvzramconfig.sh
   
   ```
 sudo /etc/init.d/dphys-swapfile stop
-  
   ```
   
 **8. Remove the (Swap) dphys-swapfile package also**  
   
   ```
 sudo apt-get remove --purge dphys-swapfile
-  
   ```
   
 **9. Save an additional 275 MB by removing installation files**  
   
   ```
-  
 sudo rm -rf ~/opencv
-  
   ```
 
   
 
   ```
-  
 $ sudo rm -rf ~/opencv_contrib
-  
   ```
 </br>
   
@@ -95,5 +85,4 @@ $ sudo rm -rf ~/opencv_contrib
   
   ```
 sudo reboot now
-  
   ```
