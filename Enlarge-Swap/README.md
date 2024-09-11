@@ -107,9 +107,10 @@ sudo nano /etc/systemd/nvzramconfig.sh
 </br>
   
 7. Now reboot the machine for changes to take effect  
-<blockquote>
+  
+  ```
 sudo reboot now
-</blockquote>
+  ```
   
 8. After reboot check the Swap memory using free command of jtop command. You will see Swap=4GB
   
