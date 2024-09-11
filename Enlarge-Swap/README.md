@@ -84,7 +84,6 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 5. Install lightweight *'nano'* editor  
   ```
   sudo apt-get install nano
-  
   ```
   
 <img src="/Enlarge-Swap/screenshots/swap7.png" width="450" height="350"> 
@@ -92,9 +91,9 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 </br>
   
 6. Now lets edit the *nvzramconfig.sh* file using Nano editor
-<blockquote>
+  ```
 sudo nano /etc/systemd/nvzramconfig.sh
-</blockquote>
+  ```
   
 <img src="/Enlarge-Swap/screenshots/swap21.png" width="450" height="350"> 
   
