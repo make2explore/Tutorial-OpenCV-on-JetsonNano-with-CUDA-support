@@ -208,9 +208,9 @@ sudo reboot now
   
 </br>
   
-<img src="/Enlarge-Swap/screenshots/swap17.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap28.png" width="450" height="350"> 
   
 </br>
   
 - You will see now RAM=4GB and Swap=6GB total (10GB), enough for OpenCV quick build limit
-- We have tested OpenCV instllation with above configuration. Worked?
+- We have tested OpenCV *4.10.0-dev* instllation with above configuration. Which Worked flawlessly (09/09/24)
