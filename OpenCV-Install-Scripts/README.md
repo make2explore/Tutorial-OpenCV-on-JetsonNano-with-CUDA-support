@@ -28,21 +28,21 @@ wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-sup
 **3. Change persmissions of file**
   
   ```
-sudo chmod 755 ./OpenCV-4-10-0.sh  
+sudo chmod 755 ./OpenCV-Latest.sh  
   
   ```
   
 **4. Execute the Script - Please note it will take 2-3 hours to complete**
   
   ```
-./OpenCV-4-10-0.sh  
+./OpenCV-Latest.sh  
   
   ```
   
 **5. Once the installation is done remove script file**  
   
   ```
-rm OpenCV-4-10-0.sh  
+rm OpenCV-Latest.sh  
   
   ```
   
