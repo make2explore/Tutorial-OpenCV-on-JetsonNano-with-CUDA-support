@@ -131,7 +131,7 @@ sudo reboot now
 - So we have already resized our Nano's default swap size to 4GB by using zram method given above.
 - Now we will use *dphys-swapfile* package method to add additional 2GB so that total swap memory will become  >8GB (4GB RAM + 6GB swap)
 
-***Please Note- The recommended swap memory size is 2GB for a 4GB Jetson Nano. Larger swap memory sizes can sometimes cause decreased performance. It is recommended to use a swap file in addition to swap memory if you need larger amounts of memory for building projects. We have tweaked with the system files only to achive the faster instllation (using additional swap memory), we will restore the settings to original after completing installation of OpenCV***
+***Please Note - The recommended swap memory size is 2GB for a 4GB Jetson Nano. Larger swap memory sizes can sometimes cause decreased performance. It is recommended to use a swap file in addition to swap memory if you need larger amounts of memory for building projects. We have tweaked with the system files only to achive the faster instllation (using additional swap memory), we will restore the settings to original after completing installation of OpenCV***
 
 1. Run jtop command to get information about avalable RAM and Swap memory. If you have followed our above tutorial steps, You will see Swap=4GB and RAM=4GB.
   
