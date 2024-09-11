@@ -10,9 +10,7 @@ Please note that, Installing OpenCV on your Jetson Nano is bit hectic. With its 
 
 **1. Check your memory first**  
   ```
-  
 free -m
-
   ```
 **You need at least 6GB**  
 If not, enlarge your swap space as explained in the [Enlarge Swap memory section](https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/tree/main/Enlarge-Swap)  
