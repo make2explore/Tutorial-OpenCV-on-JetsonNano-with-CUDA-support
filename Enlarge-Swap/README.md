@@ -57,9 +57,9 @@ So when you run *free -m* command of *jtop* command you will see following resul
 - Because the Jetson Nano has a relatively small amount of memory (4GB) this can be very useful, especially when, say, compiling large projects.  
 - The swap memory method in use is Zram. You can examine the swap memory information by using following command:  
   
-<blockquote>
-$ zramctl</blockquote>
-  
+  ```
+zramctl
+  ```
 <img src="/Enlarge-Swap/screenshots/swap19.png" width="650"> 
   
 - You will notice that there are four entries (one for each CPU of the Jetson Nano) /dev/zram0 - /dev/zram3. Each entry has an allocated amount of swap memory associated with it, by default 495.5M, for a total of around 2GB. This is half the size of the main memory. You will find this to be adequate for most tasks.  
