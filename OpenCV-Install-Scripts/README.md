@@ -46,21 +46,37 @@ rm OpenCV-Latest.sh
   
   ```
   
-**6. Remove the (Swap) dphys-swapfile and Free the SD memory**  
+6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings
+<blockquote>
+sudo nano /etc/systemd/nvzramconfig.sh
+</blockquote>
+  
+<img src="/Enlarge-Swap/screenshots/swap22.png" width="450" height="350"> 
+  
+</br>
+  
+- So in order restore zram to its original default state, you have to add the divisor to get a 2GB. 
+- You have to add */2*, refer following screenshot  
+  
+<img src="/Enlarge-Swap/screenshots/swap21.png" width="450" height="350"> 
+  
+</br>
+  
+**7. Remove the (Swap) dphys-swapfile and Free the SD memory**  
   
   ```
 sudo /etc/init.d/dphys-swapfile stop  
   
   ```
   
-**7. Remove the (Swap) dphys-swapfile package also**  
+**8. Remove the (Swap) dphys-swapfile package also**  
   
   ```
 sudo apt-get remove --purge dphys-swapfile  
   
   ```
   
-**8. Save an additional 275 MB by removing installation files**  
+**9. Save an additional 275 MB by removing installation files**  
   
   ```
   
@@ -75,3 +91,9 @@ sudo rm -rf ~/opencv
 $ sudo rm -rf ~/opencv_contrib  
   
   ```
+</br>
+  
+**10. Reboot the System for changes to take effect**
+<blockquote>
+sudo reboot now
+</blockquote>
