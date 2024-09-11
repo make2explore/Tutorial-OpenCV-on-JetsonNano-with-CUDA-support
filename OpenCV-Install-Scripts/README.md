@@ -21,7 +21,7 @@ If not, enlarge your swap space as explained in the [Enlarge Swap memory section
 **2. Then download the script from GiHub Repo, please use OpenCV-4-X-X.sh (version) as per your choice** 
   
   ```
-wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/blob/main/scripts/OpenCV-4-10-0.sh  
+wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/blob/main/scripts/OpenCV-Latest.sh  
   
   ```
   
