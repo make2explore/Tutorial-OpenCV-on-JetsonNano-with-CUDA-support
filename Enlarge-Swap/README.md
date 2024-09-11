@@ -30,7 +30,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
   ```
   sudo apt-get update
   ```
-  ***Optional Step***
+</br>
   ```
   sudo apt-get upgrade
   ```
