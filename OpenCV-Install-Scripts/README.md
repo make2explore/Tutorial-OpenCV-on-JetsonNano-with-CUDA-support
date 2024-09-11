@@ -22,7 +22,6 @@ If not, enlarge your swap space as explained in the [Enlarge Swap memory section
   
   ```
 wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/raw/main/OpenCV-Install-Scripts/scripts/OpenCV-Latest.sh
-  
   ```
   
 **3. Change persmissions of file**
