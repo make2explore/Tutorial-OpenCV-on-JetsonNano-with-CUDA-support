@@ -45,8 +45,8 @@ sudo chmod 755 ./OpenCV-Latest.sh
 rm OpenCV-Latest.sh  
   
   ```
-  
-6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings
+
+**6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings**
 <blockquote>
 sudo nano /etc/systemd/nvzramconfig.sh
 </blockquote>
