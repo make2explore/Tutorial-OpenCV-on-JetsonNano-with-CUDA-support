@@ -28,12 +28,16 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
   
 3. Check for any updates available 
   ```
-  sudo apt-get update && sudo apt-get upgrade
+  sudo apt-get update
   ```
   
 <img src="/Enlarge-Swap/screenshots/swap4.png" width="450" height="350">  
   
 </br>
+  
+  ```
+  sudo apt-get upgrade
+  ```
   
 <img src="/Enlarge-Swap/screenshots/swap6.png" width="450" height="350">  
   
