@@ -46,10 +46,11 @@ rm OpenCV-Latest.sh
   ```
 
 **6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings**
-<blockquote>
-sudo nano /etc/systemd/nvzramconfig.sh
-</blockquote>
   
+  ```
+sudo nano /etc/systemd/nvzramconfig.sh
+  
+  ```
 <img src="/Enlarge-Swap/screenshots/swap22.png" width="450" height="350"> 
   
 </br>
@@ -93,6 +94,8 @@ $ sudo rm -rf ~/opencv_contrib
 </br>
   
 **10. Reboot the System for changes to take effect**
-<blockquote>
+  
+  ```
 sudo reboot now
-</blockquote>
+  
+  ```
