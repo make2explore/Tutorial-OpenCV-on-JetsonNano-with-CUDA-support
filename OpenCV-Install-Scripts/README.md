@@ -8,7 +8,7 @@ Please note that, Installing OpenCV on your Jetson Nano is bit hectic. With its 
 </br>
 
 
-**1. Check your available memory**  
+**1. First, Check your available memory**  
   ```
 free -m
   ```
