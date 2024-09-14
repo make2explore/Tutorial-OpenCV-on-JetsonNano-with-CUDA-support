@@ -14,7 +14,7 @@ free -m
   ```
 </br>
   
-<img src="/Enlarge-Swap/screenshots/swap27.png" width="450" height="350"> 
+<img src="/Enlarge-Swap/screenshots/swap27.png"> 
   
 </br>
 
