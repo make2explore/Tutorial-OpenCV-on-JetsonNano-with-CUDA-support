@@ -25,25 +25,58 @@ If you still have not enough memory, enlarge your swap space as explained in the
 **2. Then download the script from GiHub Repo, please use OpenCV-4-X-X.sh (version) as per your choice** 
   
   ```
-wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/raw/main/OpenCV-Install-Scripts/OpenCV-Latest.sh
+wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-support/raw/main/OpenCV-Install-Scripts/OpenCV-4-9-0.sh
   ```
+</br>
   
+<img src="/OpenCV-Install-Scripts/screenshots/cv3.png" width="450" height="350"> 
+  
+</br>
+
+</br>
+  
+<img src="/OpenCV-Install-Scripts/screenshots/cv4.png" width="450" height="350"> 
+  
+</br>
+
 **3. Change persmissions of file**
   
   ```
-sudo chmod 755 ./OpenCV-Latest.sh
+sudo chmod 755 ./OpenCV-4-9-0.sh
   ```
+</br>
   
+<img src="/OpenCV-Install-Scripts/screenshots/cv5.png" width="450" height="350"> 
+  
+</br>
+
 **4. Execute the Script - Please note it will take 2-3 hours to complete**
   
   ```
-./OpenCV-Latest.sh
+./OpenCV-4-9-0.sh
   ```
+</br>
   
+<img src="/OpenCV-Install-Scripts/screenshots/cv6.png" width="450" height="350"> 
+  
+</br>
+
+</br>
+  
+<img src="/OpenCV-Install-Scripts/screenshots/cv1.png" width="450" height="350"> 
+  
+</br>
+
+</br>
+  
+<img src="/OpenCV-Install-Scripts/screenshots/cv2.png" width="450" height="350"> 
+  
+</br>
+
 **5. Once the installation is done remove script file**  
   
   ```
-rm OpenCV-Latest.sh
+rm OpenCV-4-9-0.sh
   ```
 
 **6. Now lets edit the *nvzramconfig.sh* file using Nano editor, to restore zram to default settings**
