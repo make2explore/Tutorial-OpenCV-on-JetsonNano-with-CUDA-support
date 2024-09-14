@@ -32,8 +32,6 @@ wget https://github.com/make2explore/Tutorial-OpenCV-on-JetsonNano-with-CUDA-sup
 <img src="/OpenCV-Install-Scripts/screenshots/cv3.png" width="450" height="350"> 
   
 </br>
-
-</br>
   
 <img src="/OpenCV-Install-Scripts/screenshots/cv4.png" width="450" height="350"> 
   
