@@ -60,13 +60,9 @@ sudo chmod 755 ./OpenCV-4-9-0.sh
 <img src="/OpenCV-Install-Scripts/screenshots/cv6.png" width="450" height="350"> 
   
 </br>
-
-</br>
   
 <img src="/OpenCV-Install-Scripts/screenshots/cv1.png" width="450" height="350"> 
   
-</br>
-
 </br>
   
 <img src="/OpenCV-Install-Scripts/screenshots/cv2.png" width="450" height="350"> 
