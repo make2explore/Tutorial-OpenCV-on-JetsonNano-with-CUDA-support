@@ -81,7 +81,7 @@ mem=$((("${totalmem}" / 2 / "${NRDEVICES}") * 1024))
 
 - You can simply edit this equation using a text editor. *You should probably make a backup of the file first, just in case. You will need sudo permissions to change the file.
   
-5. Install lightweight *'nano'* editor  
+5. Install lightweight *'nano'* editor.  
   ```
   sudo apt-get install nano
   ```
