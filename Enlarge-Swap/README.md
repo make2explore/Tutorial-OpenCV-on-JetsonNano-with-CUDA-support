@@ -47,6 +47,14 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 
 4. Starting with L4T 32.2.1/JetPack 4.2.2, the Jetson Nano by default has 2GB of swap memory.  
 So when you run *free -m* command of *jtop* command you will see following results initially.
+
+  ```
+  free -m
+  ```
+  
+  ```
+  jtop
+  ```
   
 <img src="/Enlarge-Swap/screenshots/swap18.png" width="650"> 
 </br>
