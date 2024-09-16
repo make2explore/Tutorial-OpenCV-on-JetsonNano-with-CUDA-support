@@ -11,7 +11,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 
 ## 1. Resize the Swap Memory
   
-1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH  
+1. Lets Login into our Jetson Nano. We will use PuTTY software to remotely login into Nano via SSH.  
   
 <img src="/Enlarge-Swap/screenshots/swap1.png" width="450" height="350">  
   
@@ -34,6 +34,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 <img src="/Enlarge-Swap/screenshots/swap4.png" width="450" height="350">  
   
 </br>
+  *This is an optional step. If you have already upgraded system or If you do not want to make changes in current kernel and packages which comes by default with Jetpack then you can skip this step. But it is better to have system upgraded.
   
   ```
   sudo apt-get upgrade
