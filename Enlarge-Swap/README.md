@@ -132,7 +132,7 @@ sudo reboot now
   
 ## 2. Enlarge the Swap Memory  
 
-- Please note that For compiling/building latest openCV we require at least 8.5 GB memory(RAM+Swap).
+- Please note that For compiling/building latest openCV from its source by utilizing all 4 cores of Jetson Nano, we require at least 8.5 GB memory(RAM+Swap).
 - We are Enlarging Jetson Nano's Swap memory, since our Your Nano's default memory (4 GB RAM + 2 GB swap) is not enough for a quick build of OpenCV.
 - If you run quick build, without enlarging Swap memory, It will run but will take long time.
 - In this case, the compilation will be done by only 1 core, hence it will take a long time.  
