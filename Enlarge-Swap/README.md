@@ -7,7 +7,7 @@ In this Tutorial we will see how to resize and enlarge size of swap memory of Je
 - Please follow instruction stepwise carefully.   
   
 1. First we will resize the default size of swap memory for Jetson Nano.
-2. Then we will intrease/enlarge the swap space.  
+2. Then we will increase/enlarge the swap space.  
 
 ## 1. Resize the Swap Memory
   
