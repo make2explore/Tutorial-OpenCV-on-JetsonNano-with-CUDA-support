@@ -182,7 +182,7 @@ sudo reboot now
   
 </br>
 
-4. Edit another file -  give the required memory size
+4. Edit another file -  to give the required memory size
   ```
   sudo nano /etc/dphys-swapfile
   ```
