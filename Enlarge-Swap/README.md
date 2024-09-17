@@ -222,4 +222,4 @@ sudo reboot now
 </br>
   
 - You will see now RAM=4GB and Swap=6GB total (10GB), enough for OpenCV quick build limit
-- We have tested OpenCV *4.10.0-dev* instllation with above configuration. Which worked flawlessly (09/09/24) lasted for 3.5 Hours approx.
+- We have tested OpenCV *4.10.0-dev* installation with above configuration. Which worked flawlessly (09/09/24) lasted for 3.5 Hours approx.
