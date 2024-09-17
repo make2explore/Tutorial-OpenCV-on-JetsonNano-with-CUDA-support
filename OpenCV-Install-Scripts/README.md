@@ -1,6 +1,6 @@
 # OpenCV Installation using script
   
-Please note that, Installing OpenCV on your Jetson Nano is bit time taking prcedure. By installing all the dependencies and required packages one by one using command line, it is bit more administrative task. With its around 70 command lines, it is more of an lengthy procedure. That's why we created an installation script that executes all commands in this guide at once. Use it if you want, it should not cause any problems. The whole installation will take two-three hours to complete. You may have to give authorization to some commands in between installation.
+Please note that, Installing OpenCV on your Jetson Nano is a time taking procedure. By installing all the dependencies and required packages one by one using command line, With its around 70 command lines, it is more of an lengthy administrative task. That's why we created an installation script that executes all commands in this guide at once. Use it if you want, it should not cause any problems. The whole installation will take two-three hours to complete. You may have to give authorization to some commands in between installation.
   
 - Please use or update version of OpenCV in following commands according to your choice
 - Which means you just have to replace the name of the particular script into following commands  
