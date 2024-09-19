@@ -150,7 +150,7 @@ sudo reboot now
   
 </br>
   
-  **We have to add at least 2GB, please do not add more than 4GB, system will behave uncertain
+  **We have to add at least 2GB, please do not add more than 4GB, system may behave uncertain
 
 2. Then lets Install *dphys-swapfile* package 
   ```
