@@ -63,7 +63,7 @@ So when you run *free -m* command of *jtop* command you will see following resul
 </br>
   
 - The swap memory allows for "extra memory" when there is memory pressure on main (physical) memory, by swapping portions of memory to disk. 
-- Because the Jetson Nano has a relatively small amount of memory (4GB) this can be very useful, especially when, e.g - compiling large projects.  
+- Since the Jetson Nano has a relatively small amount of memory (4GB) this can be very useful, especially when, e.g - compiling large projects.  
 - The swap memory method in use is Zram. You can examine the swap memory information by using following command:  
   
   ```
