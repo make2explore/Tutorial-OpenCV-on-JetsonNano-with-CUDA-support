@@ -182,6 +182,9 @@ sudo reboot now
   
 </br>
 
+***Please-Note: You must have that much amount free memory on SD card which you are going to declare here as swap boundary, otherwise system files may get corrupt***  
+  
+
 4. Edit another file -  to give the required memory size
   ```
   sudo nano /etc/dphys-swapfile
