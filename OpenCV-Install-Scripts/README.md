@@ -67,7 +67,8 @@ sudo chmod 755 ./OpenCV-4-9-0.sh
   
 </br>
 
-**5. (Restore the system to its original State) Once the installation is done remove script file**
+**5. (Restore the system to its original State)**  
+**Once the installation is done remove script file**
   
   ```
 rm OpenCV-4-9-0.sh
