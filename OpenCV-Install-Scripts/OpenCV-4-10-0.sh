@@ -65,7 +65,7 @@ install_opencv () {
       exit 1
   fi
   
-  echo "Installing OpenCV 4.9.0 on your Nano"
+  echo "Installing OpenCV 4.10.0 on your Nano"
   echo "It will take 3.5 hours !"
   
   # reveal the CUDA location
@@ -120,19 +120,18 @@ install_opencv () {
   # remove old versions or previous builds
   cd ~ 
   sudo rm -rf opencv*
-  # download the 4.9.0 version
-  wget -O opencv.zip https://github.com/opencv/opencv/archive/4.9.0.zip 
-  wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.9.0.zip 
+  # download the latest version
+  wget -O opencv.zip https://github.com/opencv/opencv/archive/4.10.0.zip 
+  wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.10.0.zip 
+  
   # unpack
   unzip opencv.zip 
   unzip opencv_contrib.zip 
+
   # Some administration to make life easier later on
-  mv opencv-4.9.0 opencv
-  mv opencv_contrib-4.9.0 opencv_contrib
-  # clean up the zip files
-  rm opencv.zip
-  rm opencv_contrib.zip
-  
+  mv opencv-4.10.0 opencv
+  mv opencv_contrib-4.10.0 opencv_contrib
+
   # set install dir
   cd ~/opencv
   mkdir build
@@ -190,7 +189,7 @@ install_opencv () {
   sudo apt-get update
   
   echo "Congratulations!"
-  echo "You've successfully installed OpenCV 4.9.0 on your Nano"
+  echo "You've successfully installed OpenCV 4.10.0 on your Nano"
 }
 
 cd ~
